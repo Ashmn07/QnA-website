@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__title {
+  display: flex;
+  padding-left: 0.75%;
+}
+
+.navbar__links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__link {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.navbar__link > .MuiSvgIcon-root {
+  margin-right: 5px;
+}
+
+.navbar__title > h1 {
+  margin: 0;
+  cursor: pointer;
+}
+
+.navbar__links > h3 {
+  margin: 0;
+}
